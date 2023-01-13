@@ -1,0 +1,27 @@
+Step 1:
+geth --datadir ./datadir init ./genesis.json
+
+Step 2:
+geth --datadir ./datadir --networkid 2004 console
+
+
+
+
+
+truffle                                                 geth
+    <> smart contract                                       <> networkid 2004   
+            <----------------------------------------------> --rpc --port 30303 --allow-insecure-unlock console
+
+geth => 1. genesis block
+        2. geth --datadir ./datadir --networkid <networkID> --rpc --rpcport <portNumber> --allow-insecure-unlock console
+        3. personal.unlockAccount(accountAddress,password,time) [time = 0 is lifetime]
+        4. miner.start()
+
+
+truffleSide:
+        1. config => geth network define
+        2. smartcontract and deployment script
+        3. truffle compile
+        4. truffle migrate --network geth
+        5. truffle console --network geth
+        6. create instance of smart conrtact by deployed() => wait krayega

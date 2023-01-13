@@ -1,0 +1,33 @@
+Blockchain =>   1. Network                  => Infrastructure   => Goerli
+                2. Smart Contracts          => EVM              => Remix
+
+Project Taks:
+        1. Design Network                   => Go-Ethereum => geth
+        2. Design Remix type ecosystem      => Truffle
+        3. Create Connection                => Configuration Setup
+        4. Deploy Contracts                 => Smart Contract
+        5. Execute Functionality            => ABI
+
+Create Geth Network
+    Private Network
+        1. Download Geth CLI
+        2. Setup Data Dictionary
+        3. Generate Genesis Block [First Block of the network]
+            a. Contain Network Configurations
+        4. Initialize Network
+        5. Run Network
+        6. Test network Functionality
+
+Genesis JSON => Genesis Javascript Object Notation
+    Step1: geth --datadir ./datadir init genesis.JSON
+    Step2: geth --datadir ./datadir --networkid 2005 console
+    Step3: Test Functionalities
+
+
+Create Truffle Project
+    Setup Truffle Environment
+        1. Download Truffle
+        2. Initialize Truffle inside Truffle Project Folder
+        3. Explore Folders and Files
+        4. Setup Configuration
+        

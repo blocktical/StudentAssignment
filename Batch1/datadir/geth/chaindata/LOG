@@ -1,0 +1,38 @@
+=============== Jul 10, 2022 (IST) ===============
+13:42:06.880424 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:06.934473 db@open opening
+13:42:06.936452 version@stat F·[] S·0B[] Sc·[]
+13:42:06.954556 db@janitor F·2 G·0
+13:42:06.954616 db@open done T·20.096083ms
+13:42:06.956207 db@close closing
+13:42:06.956280 db@close done T·73.125µs
+=============== Jul 10, 2022 (IST) ===============
+13:43:54.626737 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:43:54.627175 version@stat F·[] S·0B[] Sc·[]
+13:43:54.627189 db@open opening
+13:43:54.627232 journal@recovery F·1
+13:43:54.628755 journal@recovery recovering @1
+13:43:54.648331 memdb@flush created L0@2 N·10 S·593B "HV\xab..\xd6f\x80,v3":"r\x00\x00..\xd6f\x80,v5"
+13:43:54.649152 version@stat F·[1] S·593B[593B] Sc·[0.25]
+13:43:54.723014 db@janitor F·3 G·0
+13:43:54.723074 db@open done T·95.871792ms
+=============== Jul 10, 2022 (IST) ===============
+14:08:42.785953 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:08:42.786648 version@stat F·[1] S·593B[593B] Sc·[0.25]
+14:08:42.786675 db@open opening
+14:08:42.786732 journal@recovery F·1
+14:08:42.788059 journal@recovery recovering @3
+14:08:42.825585 memdb@flush created L0@5 N·15861 S·809KiB "Dat..ion,v12":"unc..own,v18"
+14:08:42.826355 version@stat F·[2] S·810KiB[810KiB] Sc·[0.50]
+14:08:42.905802 db@janitor F·4 G·0
+14:08:42.905835 db@open done T·119.1475ms
+=============== Jul 10, 2022 (IST) ===============
+14:12:38.398198 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:12:38.398663 version@stat F·[2] S·810KiB[810KiB] Sc·[0.50]
+14:12:38.398684 db@open opening
+14:12:38.398761 journal@recovery F·1
+14:12:38.399542 journal@recovery recovering @6
+14:12:38.424567 memdb@flush created L0@8 N·3083 S·159KiB "H\x01)..\\\xe8\xdb,v18275":"unc..own,v15876"
+14:12:38.425638 version@stat F·[3] S·969KiB[969KiB] Sc·[0.75]
+14:12:38.500891 db@janitor F·5 G·0
+14:12:38.500950 db@open done T·102.24975ms
